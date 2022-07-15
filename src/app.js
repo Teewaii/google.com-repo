@@ -40,7 +40,8 @@ cancel.addEventListener('mouseleave', () => {
 menuIcon.addEventListener('click', largeMenu)
 
 function largeMenu() {
-    menu.classList.toggle('show')
+    menu.classList.toggle('show');
+    menuIcon.classList.toggle('menu-active');
 }
 
 
